@@ -34,6 +34,7 @@ const (
 	HcaptchaProvider  = "hcaptcha"
 	RecaptchaProvider = "recaptcha"
 	TurnstileProvider = "turnstile"
+	YandexProvider    = "yandex"
 )
 
 // Config the plugin configuration.
@@ -378,8 +379,8 @@ func validateParamsRequired(config *Config) error {
 	if !contains([]string{HTTP, HTTPS}, config.CrowdsecLapiScheme) {
 		return errors.New("CrowdsecLapiScheme: must be one of 'http' or 'https'")
 	}
-	if !contains([]string{"", HcaptchaProvider, RecaptchaProvider, TurnstileProvider}, config.CaptchaProvider) {
-		return errors.New("CaptchaProvider: must be one of 'hcaptcha', 'recaptcha' or 'turnstile'")
+	if !contains([]string{"", HcaptchaProvider, RecaptchaProvider, TurnstileProvider, YandexProvider}, config.CaptchaProvider) {
+		return errors.New("CaptchaProvider: must be one of 'hcaptcha', 'recaptcha', 'turnstile' or 'yandex'")
 	}
 	return nil
 }

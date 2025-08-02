@@ -39,6 +39,7 @@ The following captcha providers are supported now:
 - [hcaptcha](https://www.hcaptcha.com/)
 - [recaptcha](https://www.google.com/recaptcha/about/)
 - [turnstile](https://www.cloudflare.com/products/turnstile/)
+- [yandex](https://cloud.yandex.com/docs/smartcaptcha/) (Yandex Smart Captcha)
 
 There are 5 operating modes (CrowdsecMode) for this plugin:
 

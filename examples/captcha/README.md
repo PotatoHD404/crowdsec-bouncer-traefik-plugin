@@ -7,10 +7,11 @@ This plugins support the `ban` and `captcha` remediation.
 ### Traefik configuration
 
 The minimal configuration is defined below.  
-For now 3 captcha providers are supported:  
+For now 4 captcha providers are supported:  
  - [hcaptcha](https://www.hcaptcha.com/)
  - [recaptcha](https://www.google.com/recaptcha/about/)
  - [turnstile](https://www.cloudflare.com/fr-fr/products/turnstile/)
+ - [yandex](https://cloud.yandex.com/docs/smartcaptcha/) (Yandex Smart Captcha)
 
 ```yaml
   labels:
@@ -159,3 +160,7 @@ TODO
 - Hcatpcha
 
 TODO
+
+- Yandex Smart Captcha
+
+For Yandex Smart Captcha configuration, see the dedicated example in `examples/yandex-captcha/` directory. Yandex Smart Captcha provides advanced bot detection through behavioral analysis and browser fingerprinting.

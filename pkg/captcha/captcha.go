@@ -52,6 +52,11 @@ var (
 			key:      "cf-turnstile",
 			validate: "https://challenges.cloudflare.com/turnstile/v0/siteverify",
 		},
+		configuration.YandexProvider: {
+			js:       "https://smartcaptcha.yandexcloud.net/captcha.js",
+			key:      "smart-token",
+			validate: "https://smartcaptcha.yandexcloud.net/validate",
+		},
 	}
 )
 
