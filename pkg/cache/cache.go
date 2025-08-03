@@ -9,7 +9,7 @@ import (
 	ttl_map "github.com/leprosus/golang-ttl-map"
 	simpleredis "github.com/maxlerebourg/simpleredis"
 
-	logger "github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin/pkg/logger"
+	logger "github.com/PotatoHD404/crowdsec-bouncer-traefik-plugin/pkg/logger"
 )
 
 const (

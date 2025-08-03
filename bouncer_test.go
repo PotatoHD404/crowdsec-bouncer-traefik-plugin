@@ -8,9 +8,9 @@ import (
 	"testing"
 	"text/template"
 
-	cache "github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin/pkg/cache"
-	configuration "github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin/pkg/configuration"
-	ip "github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin/pkg/ip"
+	cache "github.com/PotatoHD404/crowdsec-bouncer-traefik-plugin/pkg/cache"
+	configuration "github.com/PotatoHD404/crowdsec-bouncer-traefik-plugin/pkg/configuration"
+	ip "github.com/PotatoHD404/crowdsec-bouncer-traefik-plugin/pkg/ip"
 )
 
 func TestServeHTTP(t *testing.T) {

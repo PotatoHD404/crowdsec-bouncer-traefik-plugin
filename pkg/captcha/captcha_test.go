@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	configuration "github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin/pkg/configuration"
-	logger "github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin/pkg/logger"
+	configuration "github.com/PotatoHD404/crowdsec-bouncer-traefik-plugin/pkg/configuration"
+	logger "github.com/PotatoHD404/crowdsec-bouncer-traefik-plugin/pkg/logger"
 )
 
 func TestYandexCaptchaProvider(t *testing.T) {
